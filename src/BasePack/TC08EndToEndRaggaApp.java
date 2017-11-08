@@ -52,7 +52,7 @@ public class TC08EndToEndRaggaApp {
 		touch.tap(p.x+20, p.y+30).perform();
 		touch.tap(driver.findElementById("com.gaana:id/menu_icon")).perform();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.gaana:id/menuSwitchTheme_switch")));
-		touch.tap(p.x+20, p.y+30).perform();
+		touch.tap(p.x+100, p.y+30).perform();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("com.gaana:id/menu_icon")));
 		driver.pressKeyCode(AndroidKeyCode.KEYCODE_APP_SWITCH);
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.TextView[@text='Settings']")));
